@@ -1209,14 +1209,14 @@ switch ($action) {
               method="post">
             <p>
                 <label for="user_login">
-                    <!--                    --><?php //_e('Username or Email Address'); ?>
+<!--                    --><?php //_e('Username or Email Address'); ?>
                     <input type="text" name="log" id="user_login"<?php echo $aria_describedby_error; ?> class="input"
                            value="<?php echo esc_attr($user_login); ?>" size="20" placeholder="Tên Đăng Nhập"/></label>
                 <span class="class-icon"><svg class="svg-inline--fa fa-user fa-w-16" aria-hidden="true" data-prefix="fas" data-icon="user" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M256 0c88.366 0 160 71.634 160 160s-71.634 160-160 160S96 248.366 96 160 167.634 0 256 0zm183.283 333.821l-71.313-17.828c-74.923 53.89-165.738 41.864-223.94 0l-71.313 17.828C29.981 344.505 0 382.903 0 426.955V464c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48v-37.045c0-44.052-29.981-82.45-72.717-93.134z"></path></svg><!-- <i class="fas fa-user"></i> --></span>
             </p>
             <p>
                 <label for="user_pass">
-                    <!--                    --><?php //_e('Password'); ?>
+<!--                    --><?php //_e('Password'); ?>
                     <input type="password" name="pwd" id="user_pass"<?php echo $aria_describedby_error; ?> class="input"
                            value="" size="20" placeholder="Mật Khẩu"/>
                     <span class="class-icon"><svg class="svg-inline--fa fa-lock fa-w-14" aria-hidden="true" data-prefix="fas" data-icon="lock" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M400 224h-24v-72C376 68.2 307.8 0 224 0S72 68.2 72 152v72H48c-26.5 0-48 21.5-48 48v192c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V272c0-26.5-21.5-48-48-48zm-104 0H152v-72c0-39.7 32.3-72 72-72s72 32.3 72 72v72z"></path></svg><!-- <i class="fas fa-lock"></i> --></span>

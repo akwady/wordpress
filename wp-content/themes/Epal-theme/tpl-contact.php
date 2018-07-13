@@ -12,7 +12,6 @@
             <!--Nội Dung Contact-->
 
 
-
             <div class="col-md-6">
 <!--                shortcode Lấy Form plugin-->
                 <?php echo do_shortcode('[gravityform id=1 title=false description=false ajax=true tabindex=49]') ?>
