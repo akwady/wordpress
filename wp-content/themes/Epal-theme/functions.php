@@ -97,6 +97,13 @@ function scanwp_font_size( $initArray ){
 add_filter( 'tiny_mce_before_init', 'scanwp_font_size' );
 
 
+//Wedget
+if (function_exists('register_sidebar')){
+    register_sidebar(array(
+        'name'=> 'Sidebar',
+        'id' => 'sidebar',
+    ));
+}
 
 // Ẩn Menu Admin
 // function chetz_remove_admin_menus(){
