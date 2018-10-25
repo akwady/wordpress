@@ -13,7 +13,8 @@ $file_includes = [
     'inc/theme-assets.php',                 // Style and JS
     'inc/theme-setup.php',                  // General theme setting
     'inc/acf-options.php',                  // ACF Option page
-    'inc/theme-shortcode.php'              // Theme Shortcode
+    'inc/theme-shortcode.php',              // Theme Shortcode
+    'inc/button-editer.php'                 // Button Editer
 ];
 
 foreach ($file_includes as $file) {
@@ -91,7 +92,7 @@ function scanwp_buttons( $buttons ) {
 }
 add_filter( 'mce_buttons_2', 'scanwp_buttons' );
 function scanwp_font_size( $initArray ){
-    $initArray['fontsize_formats'] = "9px 10px 11px 12px 13px 14px 15px 16px 17px 18px 19px 20px";
+    $initArray['fontsize_formats'] = "9px 10px 11px 12px 13px 14px 15px 16px 17px 18px 19px 20px 21px 22px 23px 24px 25px 26px 27px 28px 29px 30px 31px 32px 33px 34px 35px 36px 37px 38px 39px 40px";
     return $initArray;
 }
 add_filter( 'tiny_mce_before_init', 'scanwp_font_size' );
@@ -111,5 +112,6 @@ if (function_exists('register_sidebar')){
 
 //     remove_menu_page( 'plugins.php' ); 
 // }}add_action('admin_menu', 'chetz_remove_admin_menus');
+
 
 ?>

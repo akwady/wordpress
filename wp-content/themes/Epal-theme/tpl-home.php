@@ -11,7 +11,13 @@
         get_template_part('sections/top-header');
 ?>
 
+<?php
 
+while(have_posts()) : the_post()
+    ?>
+<?php the_content() ?>
+
+<?php endwhile; ?>
 
 <?php
 //      Hàm Lấy File footer.php
