@@ -9,6 +9,8 @@ define('THEME_URL', get_stylesheet_directory_uri());
  *  INCLUDED FILES
  */
 
+add_editor_style( 'css/button-web.css');
+
 $file_includes = [
     'inc/theme-assets.php',                 // Style and JS
     'inc/theme-setup.php',                  // General theme setting
@@ -112,6 +114,10 @@ if (function_exists('register_sidebar')){
 
 //     remove_menu_page( 'plugins.php' ); 
 // }}add_action('admin_menu', 'chetz_remove_admin_menus');
+
+
+
+
 
 
 ?>
